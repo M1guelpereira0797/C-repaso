@@ -1,0 +1,15 @@
+C:\Users\migue\Desktop\c#\C-repaso\Consola\bin\Debug\net10.0\Consola.exe
+C:\Users\migue\Desktop\c#\C-repaso\Consola\bin\Debug\net10.0\Consola.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\Consola\bin\Debug\net10.0\Consola.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\Consola\bin\Debug\net10.0\Consola.dll
+C:\Users\migue\Desktop\c#\C-repaso\Consola\bin\Debug\net10.0\Consola.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.dll
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\refint\Consola.dll
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\Consola.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\Consola\obj\Debug\net10.0\ref\Consola.dll
