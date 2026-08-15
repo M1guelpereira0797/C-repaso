@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Diccionario07-08-2026": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\bin\Debug\net10.0\Diccionario07-08-2026.exe
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\bin\Debug\net10.0\Diccionario07-08-2026.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\bin\Debug\net10.0\Diccionario07-08-2026.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\bin\Debug\net10.0\Diccionario07-08-2026.dll
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\bin\Debug\net10.0\Diccionario07-08-2026.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.dll
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\refint\Diccionario07-08-2026.dll
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\Diccionario07-08-2026.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\Diccionario07-08-2026\obj\Debug\net10.0\ref\Diccionario07-08-2026.dll

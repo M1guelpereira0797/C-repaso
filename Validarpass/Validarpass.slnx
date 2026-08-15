@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../ValidarpassModificado/ValidarpassModificado.csproj" />
+  <Project Path="Validarpass.csproj" />
+</Solution>

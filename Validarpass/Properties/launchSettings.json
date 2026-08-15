@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Validarpass": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

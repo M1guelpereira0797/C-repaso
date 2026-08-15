@@ -1,0 +1,15 @@
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\bin\Debug\net10.0\ValidarpassModificado.exe
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\bin\Debug\net10.0\ValidarpassModificado.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\bin\Debug\net10.0\ValidarpassModificado.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\bin\Debug\net10.0\ValidarpassModificado.dll
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\bin\Debug\net10.0\ValidarpassModificado.pdb
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.dll
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\refint\ValidarpassModificado.dll
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.pdb
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ValidarpassModificado.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\ValidarpassModificado\obj\Debug\net10.0\ref\ValidarpassModificado.dll
