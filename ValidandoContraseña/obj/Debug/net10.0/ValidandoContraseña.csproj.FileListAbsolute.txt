@@ -1,0 +1,15 @@
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\bin\Debug\net10.0\ValidandoContraseña.exe
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\bin\Debug\net10.0\ValidandoContraseña.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\bin\Debug\net10.0\ValidandoContraseña.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\bin\Debug\net10.0\ValidandoContraseña.dll
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\bin\Debug\net10.0\ValidandoContraseña.pdb
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.dll
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\refint\ValidandoContraseña.dll
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.pdb
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ValidandoContraseña.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\ValidandoContraseña\obj\Debug\net10.0\ref\ValidandoContraseña.dll

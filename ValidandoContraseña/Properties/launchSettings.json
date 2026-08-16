@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ValidandoContraseña": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

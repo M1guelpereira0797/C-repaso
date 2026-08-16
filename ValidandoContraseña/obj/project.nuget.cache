@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "jHlq3SjOTkk=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\ValidandoContraseña\\ValidandoContraseña.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\migue\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.24.1-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.24.1-preview.1.nupkg.sha512"
+  ],
+  "logs": []
+}

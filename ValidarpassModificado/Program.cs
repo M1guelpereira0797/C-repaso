@@ -14,6 +14,30 @@ bool ValidarContraseña(string contrasenia)
 {
     return contrasenia.Equals(ContraseniaNueva);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 string OcultarPass(string Pass)
 {
     char[] caracteres = Pass.ToCharArray();
