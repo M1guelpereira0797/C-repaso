@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Ventas_Usuario": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

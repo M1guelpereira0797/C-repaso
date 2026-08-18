@@ -1,0 +1,15 @@
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\bin\Debug\net10.0\Ventas_Usuario.exe
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\bin\Debug\net10.0\Ventas_Usuario.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\bin\Debug\net10.0\Ventas_Usuario.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\bin\Debug\net10.0\Ventas_Usuario.dll
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\bin\Debug\net10.0\Ventas_Usuario.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.dll
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\refint\Ventas_Usuario.dll
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\Ventas_Usuario.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\Ventas_Usuario\obj\Debug\net10.0\ref\Ventas_Usuario.dll
