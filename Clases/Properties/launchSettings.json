@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Clases": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
