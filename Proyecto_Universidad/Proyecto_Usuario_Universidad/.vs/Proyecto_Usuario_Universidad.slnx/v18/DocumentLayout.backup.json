@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB1B1AE-9F06-3027-7D5C-D60FC80B5E18}|Proyecto_Usuario_Universidad.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\proyecto_universidad\\proyecto_usuario_universidad\\registro_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FB1B1AE-9F06-3027-7D5C-D60FC80B5E18}|Proyecto_Usuario_Universidad.csproj|solutionrelative:registro_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FA072-5AC8-4609-8916-2DBE3DFDF971}|Proyecto_Usuario_Universidad.csproj|C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\registro_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F1FA072-5AC8-4609-8916-2DBE3DFDF971}|Proyecto_Usuario_Universidad.csproj|solutionrelative:registro_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FB1B1AE-9F06-3027-7D5C-D60FC80B5E18}|Proyecto_Usuario_Universidad.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\proyecto_universidad\\proyecto_usuario_universidad\\inicio_sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2FB1B1AE-9F06-3027-7D5C-D60FC80B5E18}|Proyecto_Usuario_Universidad.csproj|solutionrelative:inicio_sesion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FA072-5AC8-4609-8916-2DBE3DFDF971}|Proyecto_Usuario_Universidad.csproj|C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\modificar_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F1FA072-5AC8-4609-8916-2DBE3DFDF971}|Proyecto_Usuario_Universidad.csproj|solutionrelative:modificar_usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F1FA072-5AC8-4609-8916-2DBE3DFDF971}|Proyecto_Usuario_Universidad.csproj|C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{8F1FA072-5AC8-4609-8916-2DBE3DFDF971}|Proyecto_Usuario_Universidad.csproj|solutionrelative:ventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Modificar_Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Modificar_Usuario.cs",
+              "RelativeDocumentMoniker": "Modificar_Usuario.cs",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Modificar_Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Modificar_Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:15:51.123Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ventas.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Ventas.cs",
+              "RelativeDocumentMoniker": "Ventas.cs",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Ventas.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Ventas.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:15:30.573Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Registro_Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Registro_Usuario.cs",
+              "RelativeDocumentMoniker": "Registro_Usuario.cs",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Registro_Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Registro_Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T19:15:16.608Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inicio_Sesion.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Inicio_Sesion.cs",
+              "RelativeDocumentMoniker": "Inicio_Sesion.cs",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Inicio_Sesion.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Inicio_Sesion.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T20:03:54.188Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Registro_Usuario.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Registro_Usuario.cs",
+              "RelativeDocumentMoniker": "Registro_Usuario.cs",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Proyecto_Universidad\\Proyecto_Usuario_Universidad\\Registro_Usuario.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Registro_Usuario.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-19T20:03:20.526Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
