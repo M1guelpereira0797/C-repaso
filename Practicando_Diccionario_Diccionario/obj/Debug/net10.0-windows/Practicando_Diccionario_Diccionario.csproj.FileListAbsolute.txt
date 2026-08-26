@@ -1,0 +1,17 @@
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\bin\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.exe
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\bin\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\bin\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\bin\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.dll
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\bin\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.Form1.resources
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.csproj.GenerateResource.cache
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.dll
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\refint\Practicando_Diccionario_Diccionario.dll
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\Practicando_Diccionario_Diccionario.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\Practicando_Diccionario_Diccionario\obj\Debug\net10.0-windows\ref\Practicando_Diccionario_Diccionario.dll

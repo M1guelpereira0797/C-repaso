@@ -1,0 +1,17 @@
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\bin\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.exe
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\bin\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\bin\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\bin\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.dll
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\bin\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.Form1.resources
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.csproj.GenerateResource.cache
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.dll
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\refint\Aplicando_Funciones_A_Los_Botenes.dll
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\Aplicando_Funciones_A_Los_Botenes.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\Aplicando_Funciones_A_Los_Botenes\obj\Debug\net10.0-windows\ref\Aplicando_Funciones_A_Los_Botenes.dll

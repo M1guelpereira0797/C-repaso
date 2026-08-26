@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Repaso_Conocimiento\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2B4DB3D-941D-4DF6-8FA2-4EA9714445C3}|Repaso_Conocimiento.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\repaso_conocimiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B4DB3D-941D-4DF6-8FA2-4EA9714445C3}|Repaso_Conocimiento.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B54EA352-A851-74FB-F261-71CCA4E17BF8}|Repaso_Conocimiento.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\repaso_conocimiento\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54EA352-A851-74FB-F261-71CCA4E17BF8}|Repaso_Conocimiento.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2B4DB3D-941D-4DF6-8FA2-4EA9714445C3}|Repaso_Conocimiento.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\repaso_conocimiento\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2B4DB3D-941D-4DF6-8FA2-4EA9714445C3}|Repaso_Conocimiento.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B54EA352-A851-74FB-F261-71CCA4E17BF8}|Repaso_Conocimiento.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\repaso_conocimiento\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B54EA352-A851-74FB-F261-71CCA4E17BF8}|Repaso_Conocimiento.csproj|solutionrelative:usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\Repaso_Conocimiento\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-21T11:06:59.526Z",
               "IsPinned": true,
@@ -48,8 +48,7 @@
               "RelativeToolTip": "Usuarios.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-21T11:07:46.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-21T11:07:46.094Z"
             }
           ]
         }
