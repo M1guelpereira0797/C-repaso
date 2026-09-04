@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B50E375A-FE32-1AA6-856C-8A34EDB1FA9E}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B50E375A-FE32-1AA6-856C-8A34EDB1FA9E}|PruebaBD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{A152DD83-BD18-4A36-9B24-E0F587E4E611}|PruebaBD.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B50E375A-FE32-1AA6-856C-8A34EDB1FA9E}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B50E375A-FE32-1AA6-856C-8A34EDB1FA9E}|PruebaBD.csproj|solutionrelative:usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B50E375A-FE32-1AA6-856C-8A34EDB1FA9E}|PruebaBD.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\pruebabd\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B50E375A-FE32-1AA6-856C-8A34EDB1FA9E}|PruebaBD.csproj|solutionrelative:producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,13 +34,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\Usuario.cs",
               "RelativeDocumentMoniker": "Usuario.cs",
               "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\Usuario.cs",
               "RelativeToolTip": "Usuario.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T04:48:57.519Z",
               "EditorCaption": ""
@@ -60,28 +60,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Producto.cs",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\Producto.cs",
               "RelativeDocumentMoniker": "Producto.cs",
               "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\Producto.cs",
               "RelativeToolTip": "Producto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAhwBYAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIA1wBYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-29T04:06:35.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
               "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\PruebaBD\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-29T04:05:32.724Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-08-29T04:05:32.724Z"
             }
           ]
         }
