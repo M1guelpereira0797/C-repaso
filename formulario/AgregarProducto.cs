@@ -6,6 +6,10 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using Microsoft.Data.SqlClient;
+using System.Data.SqlClient;
+using formulario.Entidades;
+using System.Linq;
+using formulario;
 
 namespace formulario
 {
@@ -16,31 +20,42 @@ namespace formulario
             InitializeComponent();
         }
 
-        private void BtnSalir_Click(object sender, EventArgs e)
+        private void AgregarBtn_Click(object sender, EventArgs e)
+        {
+            AgregarProductos();
+            
+            
+        }
+
+        private void LimpiarBtn_Click(object sender, EventArgs e)
+        {
+            SkuTxt.Clear();
+            DescripcionTxt.Clear();
+            LitrosTxt.Clear();
+            KilogramosTxt.Clear();
+            PrecioVentaTxt.Clear();
+        }
+
+        private void SalirBtn_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-
-        private void BtnLimpiar_Click(object sender, EventArgs e)
+        public void AgregarProductos()
         {
-
-        }
-
-        private void BtnAgregar_Click(object sender, EventArgs e)
-        {
-            string LlamadoSSMS = @"Server=(localdb)\MSSQLLocalDB;Database=PruebaBD;Trusted_Connection=True;";
-            var QueryProducto = "INSERT INTO Producto (Descripciones, Costo, PrecioVenta )" + "VALUES (@Descripciones, @Costo, @PrecioVenta)";
+            string LlamadoSSMS = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
+            var QueryProducto = "INSERT INTO PRODUCTOS (Sku, Descripcion, Litros, Kilogramos, PrecioVenta )" + "VALUES (@Sku, @Descripcion, @Litros, @Kilogramos, @PrecioVenta)";
             using (SqlConnection ConectarBD = new SqlConnection(LlamadoSSMS))
             {
                 ConectarBD.Open();
                 using (SqlCommand AgregarDatoBD = new SqlCommand(QueryProducto, ConectarBD))
                 {
-                   
-                    AgregarDatoBD.Parameters.AddWithValue("@Descripciones", DescripcionTxt.Text);
-                    AgregarDatoBD.Parameters.AddWithValue("@Costo", Convert.ToDouble(CostoTxt.Text));
+
+                    AgregarDatoBD.Parameters.AddWithValue("@Sku", SkuTxt.Text);
+                    AgregarDatoBD.Parameters.AddWithValue("@Descripcion", DescripcionTxt.Text);
+                    AgregarDatoBD.Parameters.AddWithValue("@Litros", Convert.ToDouble(LitrosTxt.Text));
+                    AgregarDatoBD.Parameters.AddWithValue("@Kilogramos", Convert.ToDouble(KilogramosTxt.Text));
                     AgregarDatoBD.Parameters.AddWithValue("@PrecioVenta", Convert.ToDouble(PrecioVentaTxt.Text));
-                    AgregarDatoBD.Parameters.AddWithValue("@Stock", Convert.ToInt32(StockTxt.Text));
-                    AgregarDatoBD.Parameters.AddWithValue("@IdUsuario", Convert.ToInt32(IdUsuarioTxt.Text));
+
                     AgregarDatoBD.ExecuteNonQuery();
                 }
                 ConectarBD.Close();

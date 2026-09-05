@@ -6,25 +6,23 @@ namespace formulario.Entidades
 {
     public class Producto
     {   
-        public int Id { get; set; }
-        public string Descripciones { get; set; }
-        public double Costo { get; set; }
-        public double PrecioVenta { get; set; }
-        public int Stock { get; set; } 
-
-        public int IdUsuario { get; set; }
+        public int Sku { get; set; }
+        public string Descripcion { get; set; }
+        public double Litros { get; set; }
+        public double Kilogramos { get; set; }
+        public double PrecioVenta  { get; set; }
 
 
 
 
-        public Producto(int id, string descripciones, double costo, double precioVenta, int stock, int idUsuario)
+        public Producto(int id, string descripciones, double litros, double precioVenta, double  kilogramos)
         {
-            Id = id;
-            Descripciones = descripciones;
-            Costo = costo;
+            Sku = id;
+            Descripcion = descripciones;
+            Litros = litros;
+            Kilogramos = kilogramos;
             PrecioVenta = precioVenta;
-            Stock = stock;
-            IdUsuario = idUsuario;  
+              
         }
         public Producto() { }
     }
