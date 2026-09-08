@@ -32,6 +32,9 @@
             cmbBx = new ComboBox();
             BtnBuscar = new Button();
             BtnAgregarProducto = new Button();
+            EliminarBtn = new Button();
+            RefrescarBtn = new Button();
+            ActuailzarBtn = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -42,6 +45,7 @@
             dataGridView1.Name = "dataGridView1";
             dataGridView1.Size = new Size(526, 262);
             dataGridView1.TabIndex = 0;
+            dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
             // 
             // cmbBx
             // 
@@ -54,9 +58,9 @@
             // 
             // BtnBuscar
             // 
-            BtnBuscar.Location = new Point(207, 17);
+            BtnBuscar.Location = new Point(161, 17);
             BtnBuscar.Name = "BtnBuscar";
-            BtnBuscar.Size = new Size(75, 23);
+            BtnBuscar.Size = new Size(85, 23);
             BtnBuscar.TabIndex = 2;
             BtnBuscar.Text = "Buscar";
             BtnBuscar.UseVisualStyleBackColor = true;
@@ -64,7 +68,7 @@
             // 
             // BtnAgregarProducto
             // 
-            BtnAgregarProducto.Location = new Point(315, 15);
+            BtnAgregarProducto.Location = new Point(253, 18);
             BtnAgregarProducto.Name = "BtnAgregarProducto";
             BtnAgregarProducto.Size = new Size(140, 23);
             BtnAgregarProducto.TabIndex = 3;
@@ -72,11 +76,44 @@
             BtnAgregarProducto.UseVisualStyleBackColor = true;
             BtnAgregarProducto.Click += BtnAgregar_Click;
             // 
+            // EliminarBtn
+            // 
+            EliminarBtn.Location = new Point(399, 18);
+            EliminarBtn.Name = "EliminarBtn";
+            EliminarBtn.Size = new Size(116, 23);
+            EliminarBtn.TabIndex = 4;
+            EliminarBtn.Text = "Eliminar Producto";
+            EliminarBtn.UseVisualStyleBackColor = true;
+            EliminarBtn.Click += EliminarBtn_Click;
+            // 
+            // RefrescarBtn
+            // 
+            RefrescarBtn.Location = new Point(161, 46);
+            RefrescarBtn.Name = "RefrescarBtn";
+            RefrescarBtn.Size = new Size(85, 23);
+            RefrescarBtn.TabIndex = 5;
+            RefrescarBtn.Text = "Refrescar";
+            RefrescarBtn.UseVisualStyleBackColor = true;
+            RefrescarBtn.Click += RefrescarBtn_Click;
+            // 
+            // ActuailzarBtn
+            // 
+            ActuailzarBtn.Location = new Point(253, 47);
+            ActuailzarBtn.Name = "ActuailzarBtn";
+            ActuailzarBtn.Size = new Size(140, 23);
+            ActuailzarBtn.TabIndex = 6;
+            ActuailzarBtn.Text = "Actualizar Producto";
+            ActuailzarBtn.UseVisualStyleBackColor = true;
+            ActuailzarBtn.Click += ActuailzarBtn_Click;
+            // 
             // Productos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(548, 365);
+            Controls.Add(ActuailzarBtn);
+            Controls.Add(RefrescarBtn);
+            Controls.Add(EliminarBtn);
             Controls.Add(BtnAgregarProducto);
             Controls.Add(BtnBuscar);
             Controls.Add(cmbBx);
@@ -94,5 +131,8 @@
         private ComboBox cmbBx;
         private Button BtnBuscar;
         private Button BtnAgregarProducto;
+        private Button EliminarBtn;
+        private Button RefrescarBtn;
+        private Button ActuailzarBtn;
     }
 }

@@ -3,6 +3,7 @@ using System.Data.SqlClient;
 using formulario;
 using formulario.Entidades;
 using Microsoft.Data.SqlClient;
+using Microsoft.IdentityModel.Tokens;
 
 namespace formulario
 {
@@ -12,73 +13,117 @@ namespace formulario
         {
             InitializeComponent();
 
-           
+
         }
 
         private void Producto_Load(object sender, EventArgs e)
         {
-                    CargarProductos();
+            CargarProductos();
 
         }
         public void CargarProductos()
-         {
-              string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
-              List<Producto> Lista_Producto = new List<Producto>();
-              var Query = "SELECT * FROM PRODUCTOS";
+        {
+            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
+            List<Producto> Lista_Producto = new List<Producto>();
+            var Query = "SELECT * FROM PRODUCTOS";
 
-              using (SqlConnection ConectarBd = new SqlConnection(ConectarString))
-              {
-                  ConectarBd.Open();
-                  using (SqlCommand InstruccionBD = new SqlCommand(Query, ConectarBd))
-                  {
-                      using (SqlDataReader LeerBD = InstruccionBD.ExecuteReader())
-                      {
-                          if (LeerBD.HasRows)
-                          {
-                              while (LeerBD.Read())
-                              {
-                                  Producto p = new Producto();
-                                  p.Sku= Convert.ToInt32(LeerBD["SKU"]);
-                                  p.Descripcion = LeerBD["Descripcion"].ToString();
-                                  p.Litros = Convert.ToDouble(LeerBD["Litros"]);
-                                  p.Kilogramos = Convert.ToDouble(LeerBD["Kilogramos"]);
-                                  p.PrecioVenta = Convert.ToDouble(LeerBD["PrecioVenta"]);
-                                  Lista_Producto.Add(p);
+            using (SqlConnection ConectarBd = new SqlConnection(ConectarString))
+            {
+                ConectarBd.Open();
+                using (SqlCommand InstruccionBD = new SqlCommand(Query, ConectarBd))
+                {
+                    using (SqlDataReader LeerBD = InstruccionBD.ExecuteReader())
+                    {
+                        if (LeerBD.HasRows)
+                        {
+                            while (LeerBD.Read())
+                            {
+                                Producto p = new Producto();
+                                p.Sku = Convert.ToInt32(LeerBD["SKU"]);
+                                p.Descripcion = LeerBD["Descripcion"].ToString();
+                                p.Litros = Convert.ToDouble(LeerBD["Litros"]);
+                                p.Kilogramos = Convert.ToDouble(LeerBD["Kilogramos"]);
+                                p.PrecioVenta = Convert.ToDouble(LeerBD["PrecioVenta"]);
+                                Lista_Producto.Add(p);
 
-                              }
-                          }
-                      }
-                      ConectarBd.Close();
-                  }
-              }
-              dataGridView1.DataSource = Lista_Producto;
-              dataGridView1.AutoGenerateColumns = true;
-          }
-        
+                            }
+                        }
+                    }
+                    ConectarBd.Close();
+                }
+            }
+            dataGridView1.DataSource = Lista_Producto;
+            dataGridView1.AutoGenerateColumns = true;
+        }
+
         private void BtnBuscar_Click(object sender, EventArgs e)
-          {
-            if( cmbBx.Text == "Maipu" || cmbBx.Text == "Puente alto" || cmbBx.Text == "Renca" || cmbBx.Text == "Carlos Valdovinos")
+        {
+            if (cmbBx.Text == "Maipu" || cmbBx.Text == "Puente alto" || cmbBx.Text == "Renca" || cmbBx.Text == "Carlos Valdovinos")
             {
                 CargarProductos();
             }
 
-           
+
         }
 
-          private void BtnAgregar_Click(object sender, EventArgs e)
-          {
+        private void BtnAgregar_Click(object sender, EventArgs e)
+        {
             AgregarProducto formulario = new AgregarProducto();
 
             formulario.ShowDialog();
 
-            CargarProductos();
+
 
         }
-       
 
-            
+        public void BorrarProducto(Producto prodcuto)
+        {
+            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
+            var query = "Delete From Productos Where SKU = @SKU";
+            using (SqlConnection ConectarBD = new SqlConnection(ConectarString))
+
+            {
+                ConectarBD.Open();
+                using (SqlCommand ProductoBorrar = new SqlCommand(query, ConectarBD))
+                {
+                    ProductoBorrar.Parameters.AddWithValue("@SKU", prodcuto.Sku);
+                    ProductoBorrar.ExecuteNonQuery();
+
+                }
+                ConectarBD.Close();
+            }
+
+        }
+
+        private void EliminarBtn_Click(object sender, EventArgs e)
+        {
+            BorrarProducto((Producto)dataGridView1.CurrentRow.DataBoundItem);
+
+        }
+
+        private void RefrescarBtn_Click(object sender, EventArgs e)
+        {
+            CargarProductos();
+        }
+
+        private void ActuailzarBtn_Click(object sender, EventArgs e)
+        {
+            AgregarProducto formulario = new AgregarProducto();
+
+            formulario.ShowDialog();
+        }
+
+        private void dataGridView1_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+            AgregarProducto formulario = new AgregarProducto();
+
+            formulario.ShowDialog();
+        
+
         }
     }
+}
 
 
 
