@@ -68,9 +68,11 @@ namespace formulario
 
         private void BtnAgregar_Click(object sender, EventArgs e)
         {
+            this.Hide();
             AgregarProducto formulario = new AgregarProducto();
 
             formulario.ShowDialog();
+            
 
 
 

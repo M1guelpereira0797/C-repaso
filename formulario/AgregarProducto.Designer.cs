@@ -42,6 +42,7 @@
             LimpiarBtn = new Button();
             SalirBtn = new Button();
             ProductoActualizar = new Button();
+            VolverBtn = new Button();
             SuspendLayout();
             // 
             // label1
@@ -156,7 +157,7 @@
             // 
             // ProductoActualizar
             // 
-            ProductoActualizar.Location = new Point(130, 259);
+            ProductoActualizar.Location = new Point(117, 256);
             ProductoActualizar.Name = "ProductoActualizar";
             ProductoActualizar.Size = new Size(75, 23);
             ProductoActualizar.TabIndex = 13;
@@ -164,11 +165,22 @@
             ProductoActualizar.UseVisualStyleBackColor = true;
             ProductoActualizar.Click += ProductoActualizar_Click;
             // 
+            // VolverBtn
+            // 
+            VolverBtn.Location = new Point(167, 285);
+            VolverBtn.Name = "VolverBtn";
+            VolverBtn.Size = new Size(75, 23);
+            VolverBtn.TabIndex = 14;
+            VolverBtn.Text = "Vovler ";
+            VolverBtn.UseVisualStyleBackColor = true;
+            VolverBtn.Click += VolverBtn_Click;
+            // 
             // AgregarProducto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(422, 320);
+            Controls.Add(VolverBtn);
             Controls.Add(ProductoActualizar);
             Controls.Add(SalirBtn);
             Controls.Add(LimpiarBtn);
@@ -205,5 +217,6 @@
         private Button LimpiarBtn;
         private Button SalirBtn;
         private Button ProductoActualizar;
+        private Button VolverBtn;
     }
 }

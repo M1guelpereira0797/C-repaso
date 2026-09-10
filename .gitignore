@@ -1,0 +1,5 @@
+formulario/.vs/formulario.slnx/FileContentIndex/4acf4ee4-4a76-433b-8d26-7b1a98a8acee.vsidx
+formulario/.vs/formulario.slnx/FileContentIndex/598c165e-aafd-4a20-a00a-42a99ef80ea8.vsidx
+formulario/.vs/formulario.slnx/FileContentIndex/78300a67-30a0-49e7-8927-2962cea7d624.vsidx
+.vs/
+git rm -r --cached .vs

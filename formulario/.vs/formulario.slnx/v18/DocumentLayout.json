@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\entidades\\centros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:entidades\\centros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:agregarproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|c:\\users\\migue\\desktop\\c#\\c-repaso\\formulario\\entidades\\centros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FEAF853-18F2-DEB4-5446-E9360009D5A0}|formulario.csproj|solutionrelative:entidades\\centros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Productos.cs",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Productos.cs",
               "RelativeDocumentMoniker": "Productos.cs",
-              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Productos.cs",
-              "RelativeToolTip": "Productos.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAAAUwHkAAAAIAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Productos.cs*",
+              "RelativeToolTip": "Productos.cs*",
+              "ViewState": "AgIAADgAAAAAAAAAAAAUwEYAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T12:45:42.037Z",
               "IsPinned": true,
@@ -56,13 +56,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AgregarProducto.cs",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\AgregarProducto.cs",
               "RelativeDocumentMoniker": "AgregarProducto.cs",
               "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\AgregarProducto.cs",
               "RelativeToolTip": "AgregarProducto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAIAwwGkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-05T05:01:12.942Z",
               "EditorCaption": ""
@@ -81,7 +81,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Centros.cs",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Entidades\\Centros.cs",
               "RelativeDocumentMoniker": "Entidades\\Centros.cs",
@@ -89,17 +89,16 @@
               "RelativeToolTip": "Entidades\\Centros.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-05T04:24:17.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-05T04:24:17.145Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Productos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Productos.cs",
               "RelativeDocumentMoniker": "Productos.cs",
-              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Productos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Productos.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\migue\\Desktop\\c#\\C-repaso\\formulario\\Productos.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Productos.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-04T12:51:56.525Z",
               "EditorCaption": " [Dise\u00F1o]"

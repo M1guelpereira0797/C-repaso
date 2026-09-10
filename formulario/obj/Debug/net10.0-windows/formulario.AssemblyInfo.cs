@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("formulario")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b05187200a9d38f38a46619d4a2dcdf3e650357")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e9fa8d68fc776214f0505c243bb1c2ce0f7d629")]
 [assembly: System.Reflection.AssemblyProductAttribute("formulario")]
 [assembly: System.Reflection.AssemblyTitleAttribute("formulario")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

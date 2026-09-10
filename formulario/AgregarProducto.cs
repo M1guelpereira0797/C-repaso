@@ -94,8 +94,15 @@ namespace formulario
             ModificarProducto(ModificaProducto);
 
             MessageBox.Show("Producto actualizado correctamente");
-  
 
+
+        }
+
+        private void VolverBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();   
+            Productos FormProducto = new Productos();
+            FormProducto.Show();
         }
     }
 }
