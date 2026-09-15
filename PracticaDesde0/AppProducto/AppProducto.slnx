@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../AppDataBase/AppDataBase.csproj" />
+  <Project Path="../AppEntidades/AppEntidades.csproj" />
+  <Project Path="../AppNegocio/AppNegocio.csproj" />
+  <Project Path="AppProducto.csproj" />
+</Solution>

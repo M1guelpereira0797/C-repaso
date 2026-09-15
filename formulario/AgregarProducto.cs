@@ -44,8 +44,8 @@ namespace formulario
         }
         public void AgregarProductos()
         {
-            string LlamadoSSMS = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
-            var QueryProducto = "INSERT INTO PRODUCTOS (Sku, Descripcion, Litros, Kilogramos, PrecioVenta )" + "VALUES (@Sku, @Descripcion, @Litros, @Kilogramos, @PrecioVenta)";
+            string LlamadoSSMS = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            var QueryProducto = "INSERT INTO PRODUCTO (Sku, Descripcion, Litros, Kilogramos, PrecioVenta )" + "VALUES (@Sku, @Descripcion, @Litros, @Kilogramos, @PrecioVenta)";
             using (SqlConnection ConectarBD = new SqlConnection(LlamadoSSMS))
             {
                 ConectarBD.Open();
@@ -66,8 +66,8 @@ namespace formulario
         }
         public void ModificarProducto(Producto producto)
         {
-            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
-            var query = "UPDATE Productos SET Descripcion = @Descripcion, Litros = @Litros, Kilogramos = @Kilogramos, PrecioVenta = @PrecioVenta WHERE SKU = @SKU";
+            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            var query = "UPDATE PRODUCTO SET Descripcion = @Descripcion, Litros = @Litros, Kilogramos = @Kilogramos, PrecioVenta = @PrecioVenta WHERE SKU = @SKU";
             using (SqlConnection ConectarBD = new SqlConnection(ConectarString))
             {
                 ConectarBD.Open();

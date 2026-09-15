@@ -18,14 +18,20 @@ namespace formulario
 
         private void Producto_Load(object sender, EventArgs e)
         {
-            CargarProductos();
+            CargarDEproductos();
 
         }
-        public void CargarProductos()
+        public void CargarDEproductos()
         {
-            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
+            List<Producto> Lista_Producto = CargarProductos();
+            dataGridView1.DataSource = Lista_Producto;
+            dataGridView1.AutoGenerateColumns = true;
+        }
+        public static List<Producto> CargarProductos()
+        {
+            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
             List<Producto> Lista_Producto = new List<Producto>();
-            var Query = "SELECT * FROM PRODUCTOS";
+            var Query = "SELECT * FROM PRODUCTO";
 
             using (SqlConnection ConectarBd = new SqlConnection(ConectarString))
             {
@@ -52,16 +58,22 @@ namespace formulario
                     ConectarBd.Close();
                 }
             }
-            dataGridView1.DataSource = Lista_Producto;
-            dataGridView1.AutoGenerateColumns = true;
+            return Lista_Producto;
         }
 
         private void BtnBuscar_Click(object sender, EventArgs e)
         {
-            if (cmbBx.Text == "Maipu" || cmbBx.Text == "Puente alto" || cmbBx.Text == "Renca" || cmbBx.Text == "Carlos Valdovinos")
-            {
-                CargarProductos();
-            }
+            int sku = Convert.ToInt32(BuscarIdTxt.Text);
+            Producto producto = ProductoById(sku);
+
+            List<Producto> lista = new List<Producto>();
+            lista.Add(producto);
+
+            dataGridView1.DataSource = lista;
+            dataGridView1.AutoGenerateColumns = true;
+
+
+
 
 
         }
@@ -80,8 +92,8 @@ namespace formulario
 
         public void BorrarProducto(Producto prodcuto)
         {
-            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD;Trusted_Connection=True;";
-            var query = "Delete From Productos Where SKU = @SKU";
+            string ConectarString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            var query = "Delete From PRODUCTO Where SKU = @SKU";
             using (SqlConnection ConectarBD = new SqlConnection(ConectarString))
 
             {
@@ -105,7 +117,7 @@ namespace formulario
 
         private void RefrescarBtn_Click(object sender, EventArgs e)
         {
-            CargarProductos();
+            CargarDEproductos();
         }
 
         private void ActuailzarBtn_Click(object sender, EventArgs e)
@@ -123,6 +135,36 @@ namespace formulario
             formulario.ShowDialog();
         
 
+        }
+
+        public static Producto ProductoById(int sku)
+        {
+            string connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT * FROM PRODUCTO WHERE Sku = @sku";
+
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@sku", sku);
+                connection.Open();
+
+                SqlDataReader dataReader = command.ExecuteReader();
+
+                if (dataReader.Read())
+                {
+                    var producto = new Producto();
+                    producto.Sku = Convert.ToInt32(dataReader["Sku"]);
+                    producto.Descripcion = dataReader["Descripcion"].ToString();
+                    producto.Litros = Convert.ToDouble(dataReader["Litros"]);
+                    producto.Kilogramos = Convert.ToDouble(dataReader["Kilogramos"]);
+                    producto.PrecioVenta = Convert.ToDouble(dataReader["PrecioVenta"]);
+
+                    return producto;
+                }
+
+                throw new Exception("ID NO ENCONTRADO");
+            }
         }
     }
 }

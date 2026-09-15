@@ -1,0 +1,17 @@
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\bin\Debug\net10.0-windows\Caracteres forms.exe
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\bin\Debug\net10.0-windows\Caracteres forms.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\bin\Debug\net10.0-windows\Caracteres forms.runtimeconfig.json
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\bin\Debug\net10.0-windows\Caracteres forms.dll
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\bin\Debug\net10.0-windows\Caracteres forms.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres_forms.Form1.resources
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.csproj.GenerateResource.cache
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.dll
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\refint\Caracteres forms.dll
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.pdb
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\Caracteres forms.genruntimeconfig.cache
+C:\Users\migue\Desktop\c#\C-repaso\Caracteres forms\obj\Debug\net10.0-windows\ref\Caracteres forms.dll

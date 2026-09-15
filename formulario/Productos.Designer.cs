@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             dataGridView1 = new DataGridView();
-            cmbBx = new ComboBox();
             BtnBuscar = new Button();
             BtnAgregarProducto = new Button();
             EliminarBtn = new Button();
             RefrescarBtn = new Button();
             ActuailzarBtn = new Button();
+            BuscarIdTxt = new TextBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -46,15 +46,6 @@
             dataGridView1.Size = new Size(526, 262);
             dataGridView1.TabIndex = 0;
             dataGridView1.CellDoubleClick += dataGridView1_CellDoubleClick;
-            // 
-            // cmbBx
-            // 
-            cmbBx.FormattingEnabled = true;
-            cmbBx.Items.AddRange(new object[] { "Maipu", "Carlos Valdovinos", "Puente Alto" });
-            cmbBx.Location = new Point(17, 18);
-            cmbBx.Name = "cmbBx";
-            cmbBx.Size = new Size(138, 23);
-            cmbBx.TabIndex = 1;
             // 
             // BtnBuscar
             // 
@@ -106,33 +97,41 @@
             ActuailzarBtn.UseVisualStyleBackColor = true;
             ActuailzarBtn.Click += ActuailzarBtn_Click;
             // 
+            // BuscarIdTxt
+            // 
+            BuscarIdTxt.Location = new Point(24, 19);
+            BuscarIdTxt.Name = "BuscarIdTxt";
+            BuscarIdTxt.Size = new Size(131, 23);
+            BuscarIdTxt.TabIndex = 7;
+            // 
             // Productos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(548, 365);
+            Controls.Add(BuscarIdTxt);
             Controls.Add(ActuailzarBtn);
             Controls.Add(RefrescarBtn);
             Controls.Add(EliminarBtn);
             Controls.Add(BtnAgregarProducto);
             Controls.Add(BtnBuscar);
-            Controls.Add(cmbBx);
             Controls.Add(dataGridView1);
             Name = "Productos";
             Text = "Producto";
             Load += Producto_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
 
         private DataGridView dataGridView1;
-        private ComboBox cmbBx;
         private Button BtnBuscar;
         private Button BtnAgregarProducto;
         private Button EliminarBtn;
         private Button RefrescarBtn;
         private Button ActuailzarBtn;
+        private TextBox BuscarIdTxt;
     }
 }

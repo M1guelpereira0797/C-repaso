@@ -1,0 +1,13 @@
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\bin\Debug\net10.0\AppEntidades.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\bin\Debug\net10.0\AppEntidades.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\bin\Debug\net10.0\AppEntidades.pdb
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.csproj.AssemblyReference.cache
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\refint\AppEntidades.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.pdb
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\ref\AppEntidades.dll

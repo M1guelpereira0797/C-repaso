@@ -43,12 +43,14 @@
             SalirBtn = new Button();
             ProductoActualizar = new Button();
             VolverBtn = new Button();
+            comboBox1 = new ComboBox();
+            label6 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(21, 27);
+            label1.Location = new Point(24, 111);
             label1.Name = "label1";
             label1.Size = new Size(26, 15);
             label1.TabIndex = 0;
@@ -57,7 +59,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(21, 67);
+            label2.Location = new Point(24, 151);
             label2.Name = "label2";
             label2.Size = new Size(69, 15);
             label2.TabIndex = 1;
@@ -66,7 +68,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(21, 111);
+            label3.Location = new Point(24, 195);
             label3.Name = "label3";
             label3.Size = new Size(36, 15);
             label3.TabIndex = 2;
@@ -75,7 +77,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(21, 162);
+            label4.Location = new Point(24, 246);
             label4.Name = "label4";
             label4.Size = new Size(67, 15);
             label4.TabIndex = 3;
@@ -84,7 +86,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(21, 201);
+            label5.Location = new Point(24, 285);
             label5.Name = "label5";
             label5.Size = new Size(72, 15);
             label5.TabIndex = 4;
@@ -92,42 +94,42 @@
             // 
             // SkuTxt
             // 
-            SkuTxt.Location = new Point(191, 27);
+            SkuTxt.Location = new Point(194, 111);
             SkuTxt.Name = "SkuTxt";
             SkuTxt.Size = new Size(100, 23);
             SkuTxt.TabIndex = 5;
             // 
             // DescripcionTxt
             // 
-            DescripcionTxt.Location = new Point(191, 67);
+            DescripcionTxt.Location = new Point(194, 151);
             DescripcionTxt.Name = "DescripcionTxt";
             DescripcionTxt.Size = new Size(100, 23);
             DescripcionTxt.TabIndex = 6;
             // 
             // LitrosTxt
             // 
-            LitrosTxt.Location = new Point(191, 111);
+            LitrosTxt.Location = new Point(194, 195);
             LitrosTxt.Name = "LitrosTxt";
             LitrosTxt.Size = new Size(100, 23);
             LitrosTxt.TabIndex = 7;
             // 
             // KilogramosTxt
             // 
-            KilogramosTxt.Location = new Point(191, 165);
+            KilogramosTxt.Location = new Point(194, 249);
             KilogramosTxt.Name = "KilogramosTxt";
             KilogramosTxt.Size = new Size(100, 23);
             KilogramosTxt.TabIndex = 8;
             // 
             // PrecioVentaTxt
             // 
-            PrecioVentaTxt.Location = new Point(191, 201);
+            PrecioVentaTxt.Location = new Point(194, 285);
             PrecioVentaTxt.Name = "PrecioVentaTxt";
             PrecioVentaTxt.Size = new Size(100, 23);
             PrecioVentaTxt.TabIndex = 9;
             // 
             // AgregarBtn
             // 
-            AgregarBtn.Location = new Point(27, 256);
+            AgregarBtn.Location = new Point(21, 367);
             AgregarBtn.Name = "AgregarBtn";
             AgregarBtn.Size = new Size(75, 23);
             AgregarBtn.TabIndex = 10;
@@ -137,7 +139,7 @@
             // 
             // LimpiarBtn
             // 
-            LimpiarBtn.Location = new Point(216, 256);
+            LimpiarBtn.Location = new Point(210, 367);
             LimpiarBtn.Name = "LimpiarBtn";
             LimpiarBtn.Size = new Size(75, 23);
             LimpiarBtn.TabIndex = 11;
@@ -147,7 +149,7 @@
             // 
             // SalirBtn
             // 
-            SalirBtn.Location = new Point(312, 256);
+            SalirBtn.Location = new Point(306, 367);
             SalirBtn.Name = "SalirBtn";
             SalirBtn.Size = new Size(75, 23);
             SalirBtn.TabIndex = 12;
@@ -157,7 +159,7 @@
             // 
             // ProductoActualizar
             // 
-            ProductoActualizar.Location = new Point(117, 256);
+            ProductoActualizar.Location = new Point(111, 367);
             ProductoActualizar.Name = "ProductoActualizar";
             ProductoActualizar.Size = new Size(75, 23);
             ProductoActualizar.TabIndex = 13;
@@ -167,7 +169,7 @@
             // 
             // VolverBtn
             // 
-            VolverBtn.Location = new Point(167, 285);
+            VolverBtn.Location = new Point(161, 396);
             VolverBtn.Name = "VolverBtn";
             VolverBtn.Size = new Size(75, 23);
             VolverBtn.TabIndex = 14;
@@ -175,11 +177,31 @@
             VolverBtn.UseVisualStyleBackColor = true;
             VolverBtn.Click += VolverBtn_Click;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Puente Alto", "Carlos Valdovinos", "Maipu", "Renca" });
+            comboBox1.Location = new Point(191, 48);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 15;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(27, 44);
+            label6.Name = "label6";
+            label6.Size = new Size(43, 15);
+            label6.TabIndex = 16;
+            label6.Text = "Centro";
+            // 
             // AgregarProducto
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(422, 320);
+            ClientSize = new Size(422, 459);
+            Controls.Add(label6);
+            Controls.Add(comboBox1);
             Controls.Add(VolverBtn);
             Controls.Add(ProductoActualizar);
             Controls.Add(SalirBtn);
@@ -218,5 +240,7 @@
         private Button SalirBtn;
         private Button ProductoActualizar;
         private Button VolverBtn;
+        private ComboBox comboBox1;
+        private Label label6;
     }
 }

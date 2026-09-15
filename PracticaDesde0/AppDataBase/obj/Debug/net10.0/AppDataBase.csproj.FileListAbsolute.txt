@@ -1,0 +1,16 @@
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.csproj.AssemblyReference.cache
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.AssemblyInfoInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.AssemblyInfo.cs
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.csproj.CoreCompileInputs.cache
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.sourcelink.json
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\bin\Debug\net10.0\AppDataBase.deps.json
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\bin\Debug\net10.0\AppDataBase.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\bin\Debug\net10.0\AppDataBase.pdb
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\bin\Debug\net10.0\AppEntidades.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\bin\Debug\net10.0\AppEntidades.pdb
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataB.2FBF77BE.Up2Date
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\refint\AppDataBase.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\AppDataBase.pdb
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppDataBase\obj\Debug\net10.0\ref\AppDataBase.dll
