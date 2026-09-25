@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ValidandoContraseña")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+525c40842c92fce7a3ccb1d565e92535bc869186")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa90d3f5f8bcd56e887ffeb3c464bcc686f78b0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("ValidandoContraseña")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ValidandoContraseña")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

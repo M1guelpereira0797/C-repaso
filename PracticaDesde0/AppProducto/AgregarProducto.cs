@@ -40,7 +40,7 @@ namespace AppProducto
             {
                 MessageBox.Show("El Centro ID debe ser 1, 2, 3 o 4");
             };
-
+           
 
         }
 
@@ -66,7 +66,12 @@ namespace AppProducto
             textBox4.Clear();
             textBox5.Clear();
             textBox6.Clear();
-            textBox7.Clear();           
+            textBox7.Clear();
+        }
+
+        private void AgregarProducto_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

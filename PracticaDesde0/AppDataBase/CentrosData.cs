@@ -11,7 +11,7 @@ namespace AppDataBase
 
         public List<CENTRO_LOGISTICO> GetCentros()
         {
-            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
             List<CENTRO_LOGISTICO> Centros = new List<CENTRO_LOGISTICO>();
             var ConsultaQuery = "SELECT * FROM CENTRO_LOGISTICO";
             using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
@@ -41,7 +41,7 @@ namespace AppDataBase
        
         public static CENTRO_LOGISTICO CentroById(int centroID) // o renombrar a CentroById
         {
-            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
             var ConsultaQuery = "SELECT * FROM CENTRO_LOGISTICO WHERE Centro_ID = @Centro_ID";
             using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
             {

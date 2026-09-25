@@ -225,6 +225,7 @@
             Controls.Add(label1);
             Name = "AgregarProducto";
             Text = "AgregarProducto";
+            Load += AgregarProducto_Load;
             ResumeLayout(false);
             PerformLayout();
         }

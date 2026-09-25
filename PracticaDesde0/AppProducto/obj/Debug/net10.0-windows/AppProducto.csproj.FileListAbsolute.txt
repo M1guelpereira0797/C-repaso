@@ -81,3 +81,5 @@ C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppProducto\obj\Debug\net10.0-
 C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppProducto\obj\Debug\net10.0-windows\ref\AppProducto.dll
 C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppProducto\obj\Debug\net10.0-windows\AppProducto.AgregarProducto.resources
 C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppProducto\obj\Debug\net10.0-windows\AppProducto.ActualizarProducto.resources
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppProducto\obj\Debug\net10.0-windows\AppProducto.ForUsuario.resources
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppProducto\obj\Debug\net10.0-windows\AppProducto.FormRegistrodeUsuario.resources

@@ -9,7 +9,7 @@ namespace AppDataBase
     public class ProductoData
     {
 
-        public string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+        public string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
 
         public List<PRODUCTO> GetProducto()
         {
@@ -46,7 +46,7 @@ namespace AppDataBase
         }
         public static PRODUCTO ProductoById(int sku)
         {
-             string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+             string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
              var ConsultaQuery = "SELECT * FROM PRODUCTO WHERE Sku = @Sku";
             using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
             {
@@ -83,7 +83,7 @@ namespace AppDataBase
 
         public static void AgregarBotonProducto(PRODUCTO producto)
         {
-            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
             var QueryAgregar = "INSERT INTO PRODUCTO(CENTRO_ID, Sku, Nombre_Producto, Litros, Precio_Costo, Precio_Venta, Stock) VALUES (@CENTRO_ID, @Sku, @Nombre_Producto, @Litros, @Precio_Costo, @Precio_Venta, @Stock)";
             using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
             {
@@ -105,7 +105,7 @@ namespace AppDataBase
         }
         public static void EliminarBotonProducto(PRODUCTO producto)
         {
-            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
             var QueryEliminar = "DELETE FROM PRODUCTO WHERE SKU = @SKU";
             using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
             {
@@ -120,8 +120,8 @@ namespace AppDataBase
         }
        public static void ActulizarBotonProducto(PRODUCTO producto)
         {
-            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=PROYECTOBD2;Trusted_Connection=True;";
-            var QueryActualizar = " UPDATE PRODUCTO SET  Nombre_Producto = @Nombre_Producto, Litros = @Litros, Precio_Costo = @Precio_Costo, Precio_Venta = @Precio_Venta, Stock = @Stock, Centro_ID = @Centro_ID WHERE SKU = @SKU";
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
+            var QueryActualizar = " UPDATE PRODUCTO SET  Nombre_Producto = @Nombre_Producto, Litros = @Litros, Precio_Costo = @Precio_Costo, Precio_Venta = @Precio_Venta, Stock = @Stock WHERE Centro_ID = @Centro_ID AND SKU = @SKU";
             using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
             {
                 ConectarBD.Open();

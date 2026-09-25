@@ -51,7 +51,7 @@
             // CentrosCmb
             // 
             CentrosCmb.FormattingEnabled = true;
-            CentrosCmb.Items.AddRange(new object[] { "Carlos Valdovinos", "Maipu", "Puente Alto", "Renca" });
+            CentrosCmb.Items.AddRange(new object[] { "Centro1", "Centro2", "Centro3", "Centro4" });
             CentrosCmb.Location = new Point(31, 31);
             CentrosCmb.Name = "CentrosCmb";
             CentrosCmb.Size = new Size(121, 23);

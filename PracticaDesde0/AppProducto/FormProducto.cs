@@ -55,23 +55,23 @@ namespace AppProducto
         private void Buscar_CentroBtn_Click(object sender, EventArgs e)
         {
             var centroId = CentrosCmb.SelectedItem?.ToString();
-            if (centroId == "Renca")
+            if (centroId == "Centro1")
             {
                 List<PRODUCTO> productos = AppNegocio.Class1.CargaDeProductos();
                 dataGridView1.DataSource = productos.FindAll(p => p.Centro_ID == 1);
 
             }
-            else if (centroId == "Maipu")
+            else if (centroId == "Centro2")
             {
                 List<PRODUCTO> productos = AppNegocio.Class1.CargaDeProductos();
                 dataGridView1.DataSource = productos.FindAll(p => p.Centro_ID == 2);
             }
-            else if (centroId == "Carlos Valdovinos")
+            else if (centroId == "Centro3")
             {
                 List<PRODUCTO> productos = AppNegocio.Class1.CargaDeProductos();
                 dataGridView1.DataSource = productos.FindAll(p => p.Centro_ID == 3);
             }
-            else if (centroId == "Puente Alto")
+            else if (centroId == "Centro4")
             {
                 List<PRODUCTO> productos = AppNegocio.Class1.CargaDeProductos();
                 dataGridView1.DataSource = productos.FindAll(p => p.Centro_ID == 4);
