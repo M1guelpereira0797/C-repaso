@@ -11,5 +11,10 @@ namespace AppNegocio
         {
             AppDataBase.UsuarioData.BontonAgregarUsuario(usuario);
         }
+        public static bool ValidarUsuario(Usuario usuario)
+        {
+           return   AppDataBase.UsuarioData.ValidarUsuario(usuario);
+         
+        }
     }
 }

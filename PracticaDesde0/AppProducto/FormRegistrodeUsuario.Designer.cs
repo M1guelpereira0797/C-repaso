@@ -45,9 +45,9 @@
             ApellidoMaternoTxt = new TextBox();
             CorreoElectronicoTxt = new TextBox();
             ContraseñaTxt = new TextBox();
-            SexoTxt = new TextBox();
-            FechaNacmientoTxt = new TextBox();
             SexoCmb = new ComboBox();
+            FechaNacimientoDtp = new DateTimePicker();
+            RutTxt = new TextBox();
             SuspendLayout();
             // 
             // RegistrarseBtn
@@ -193,20 +193,6 @@
             ContraseñaTxt.Size = new Size(100, 23);
             ContraseñaTxt.TabIndex = 16;
             // 
-            // SexoTxt
-            // 
-            SexoTxt.Location = new Point(256, 448);
-            SexoTxt.Name = "SexoTxt";
-            SexoTxt.Size = new Size(100, 23);
-            SexoTxt.TabIndex = 19;
-            // 
-            // FechaNacmientoTxt
-            // 
-            FechaNacmientoTxt.Location = new Point(254, 346);
-            FechaNacmientoTxt.Name = "FechaNacmientoTxt";
-            FechaNacmientoTxt.Size = new Size(100, 23);
-            FechaNacmientoTxt.TabIndex = 20;
-            // 
             // SexoCmb
             // 
             SexoCmb.FormattingEnabled = true;
@@ -216,14 +202,28 @@
             SexoCmb.Size = new Size(99, 23);
             SexoCmb.TabIndex = 21;
             // 
+            // FechaNacimientoDtp
+            // 
+            FechaNacimientoDtp.Location = new Point(255, 343);
+            FechaNacimientoDtp.Name = "FechaNacimientoDtp";
+            FechaNacimientoDtp.Size = new Size(101, 23);
+            FechaNacimientoDtp.TabIndex = 22;
+            // 
+            // RutTxt
+            // 
+            RutTxt.Location = new Point(258, 456);
+            RutTxt.Name = "RutTxt";
+            RutTxt.Size = new Size(100, 23);
+            RutTxt.TabIndex = 23;
+            // 
             // FormRegistrodeUsuario
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(428, 595);
+            Controls.Add(RutTxt);
+            Controls.Add(FechaNacimientoDtp);
             Controls.Add(SexoCmb);
-            Controls.Add(FechaNacmientoTxt);
-            Controls.Add(SexoTxt);
             Controls.Add(ContraseñaTxt);
             Controls.Add(CorreoElectronicoTxt);
             Controls.Add(ApellidoMaternoTxt);
@@ -243,7 +243,6 @@
             Controls.Add(RegistrarseBtn);
             Name = "FormRegistrodeUsuario";
             Text = "FormRegistrodeUsuario";
-            Load += FormRegistrodeUsuario_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -269,8 +268,9 @@
         private TextBox ContraseñaTxt;
         private TextBox textBox7;
         private TextBox textBox8;
-        private TextBox SexoTxt;
-        private TextBox FechaNacmientoTxt;
+   
         private ComboBox SexoCmb;
+        private DateTimePicker FechaNacimientoDtp;
+        private TextBox RutTxt;
     }
 }

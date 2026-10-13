@@ -12,7 +12,7 @@ namespace AppEntidades
         public string Apellido_Paterno { get; set; }
         public string Apellido_Materno { get; set; }
         public string CorreoElectronico { get; set; }
-        public string Contraseña { get; set; }
+        public int Contraseña { get; set; }
         public DateTime Fecha_de_Nacimiento { get; set; }
 
         public string Sexo { get; set; }
@@ -22,7 +22,7 @@ namespace AppEntidades
         public Usuario() { }
 
         public Usuario( int id_usuario, string nombres, string apellido_paterno, string apellido_materno, 
-            string correoElectronico, string contraseña, DateTime fechadenacimiento, string sexo, int rut)
+            string correoElectronico, int contraseña, DateTime fechadenacimiento, string sexo, int rut)
         {
             ID_Usuario = id_usuario;
             Nombres = nombres;

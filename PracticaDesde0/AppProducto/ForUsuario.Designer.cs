@@ -36,6 +36,7 @@
             CambioContrasenia = new LinkLabel();
             IngresoBtn = new Button();
             CerrarBtn = new Button();
+            LblError = new Label();
             SuspendLayout();
             // 
             // RegistrarseLink
@@ -62,7 +63,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(170, 189);
+            label2.Location = new Point(167, 163);
             label2.Name = "label2";
             label2.Size = new Size(67, 15);
             label2.TabIndex = 5;
@@ -70,14 +71,14 @@
             // 
             // TxtUsuario
             // 
-            TxtUsuario.Location = new Point(158, 136);
+            TxtUsuario.Location = new Point(158, 120);
             TxtUsuario.Name = "TxtUsuario";
             TxtUsuario.Size = new Size(100, 23);
             TxtUsuario.TabIndex = 7;
             // 
             // ContraseniaTxt
             // 
-            ContraseniaTxt.Location = new Point(158, 245);
+            ContraseniaTxt.Location = new Point(158, 190);
             ContraseniaTxt.Name = "ContraseniaTxt";
             ContraseniaTxt.Size = new Size(100, 23);
             ContraseniaTxt.TabIndex = 8;
@@ -101,6 +102,7 @@
             IngresoBtn.TabIndex = 10;
             IngresoBtn.Text = "Ingresar";
             IngresoBtn.UseVisualStyleBackColor = true;
+            IngresoBtn.Click += IngresoBtn_Click;
             // 
             // CerrarBtn
             // 
@@ -111,6 +113,14 @@
             CerrarBtn.Text = "Salir";
             CerrarBtn.UseVisualStyleBackColor = true;
             // 
+            // LblError
+            // 
+            LblError.AutoSize = true;
+            LblError.Location = new Point(182, 231);
+            LblError.Name = "LblError";
+            LblError.Size = new Size(0, 15);
+            LblError.TabIndex = 13;
+            // 
             // ForUsuario
             // 
             AccessibleRole = AccessibleRole.None;
@@ -119,6 +129,7 @@
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(404, 470);
             ControlBox = false;
+            Controls.Add(LblError);
             Controls.Add(CerrarBtn);
             Controls.Add(IngresoBtn);
             Controls.Add(CambioContrasenia);
@@ -149,5 +160,7 @@
         private LinkLabel CambioContrasenia;
         private Button IngresoBtn;
         private Button CerrarBtn;
+        private Label label3;
+        private Label LblError;
     }
 }

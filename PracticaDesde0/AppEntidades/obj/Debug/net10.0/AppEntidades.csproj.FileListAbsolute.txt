@@ -11,3 +11,4 @@ C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0
 C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\refint\AppEntidades.dll
 C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntidades.pdb
 C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\ref\AppEntidades.dll
+C:\Users\migue\Desktop\c#\C-repaso\PracticaDesde0\AppEntidades\obj\Debug\net10.0\AppEntid.3AF8CC70.Up2Date
