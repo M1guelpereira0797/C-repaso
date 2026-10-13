@@ -93,6 +93,21 @@ namespace AppDataBase
                 }
             }
         }
+        public static bool CorreoExiste(string correoElectronico)
+        {
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
+            string QueryCorreo = "SELECT COUNT(*) FROM REGISTROUSUARIO WHERE CORREO_ELECTRONICO = @Correo_Electronico";
+            using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
+            {
+                ConectarBD.Open();
+                using (SqlCommand ComandoCorreo = new SqlCommand(QueryCorreo, ConectarBD))
+                {
+                    ComandoCorreo.Parameters.AddWithValue("@Correo_Electronico", correoElectronico);
+                    int cantidad = Convert.ToInt32(ComandoCorreo.ExecuteScalar());
+                    return cantidad > 0;
+                }
+            }
+        }
     }
 }
      

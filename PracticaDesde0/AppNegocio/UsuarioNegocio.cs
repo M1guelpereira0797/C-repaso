@@ -16,5 +16,9 @@ namespace AppNegocio
            return   AppDataBase.UsuarioData.ValidarUsuario(usuario);
          
         }
+        public static bool ValidarCorreoElectronico(string CorreoElectronico)
+        {
+            return AppDataBase.UsuarioData.CorreoExiste(CorreoElectronico);
+        }
     }
 }

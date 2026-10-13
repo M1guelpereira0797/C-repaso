@@ -22,5 +22,9 @@ namespace AppNegocio
         {
             ProductoData.ActulizarBotonProducto(producto);
         }   
+        public static bool ValidarProductoIngresado(int sku, string nombre)
+        {
+            return ProductoData.ValidarProducto(sku, nombre);
+        }
     }
 }

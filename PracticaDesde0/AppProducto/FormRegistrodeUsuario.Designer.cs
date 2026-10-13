@@ -266,9 +266,7 @@
         private TextBox ApellidoMaternoTxt;
         private TextBox CorreoElectronicoTxt;
         private TextBox ContraseñaTxt;
-        private TextBox textBox7;
-        private TextBox textBox8;
-   
+    
         private ComboBox SexoCmb;
         private DateTimePicker FechaNacimientoDtp;
         private TextBox RutTxt;

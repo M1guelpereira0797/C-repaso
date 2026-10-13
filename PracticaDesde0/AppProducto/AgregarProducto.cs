@@ -19,6 +19,12 @@ namespace AppProducto
 
         public void ConfirmarBtn_Click(object sender, EventArgs e)
         {
+            if(AppNegocio.Class1.ValidarProductoIngresado(Convert.ToInt16(textBox2.Text), textBox3.Text))
+            {   
+                MessageBox.Show("El producto ya existe en la base de datos");
+                return;
+
+            }
             if (textBox1.Text == "1" || textBox1.Text == "2" || textBox1.Text == "3" || textBox1.Text == "4")
             {
 

@@ -38,8 +38,8 @@ namespace AppProducto
                 LblError.Visible = true;
                 LblError.ForeColor = Color.Red;
                 LblError.Text = "Debe ingresar un correo electrónico.";
-                
-                
+
+
                 TxtUsuario.Focus();
                 return;
             }
@@ -75,6 +75,11 @@ namespace AppProducto
                 TxtUsuario.BackColor = Color.MistyRose;
                 ContraseniaTxt.BackColor = Color.MistyRose;
             }
+        }
+
+        private void CerrarBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

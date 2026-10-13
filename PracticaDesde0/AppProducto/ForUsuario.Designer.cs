@@ -112,6 +112,7 @@
             CerrarBtn.TabIndex = 11;
             CerrarBtn.Text = "Salir";
             CerrarBtn.UseVisualStyleBackColor = true;
+            CerrarBtn.Click += CerrarBtn_Click;
             // 
             // LblError
             // 

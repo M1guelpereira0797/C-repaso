@@ -48,8 +48,11 @@ namespace AppProducto
                 MessageBox.Show("El es menor de edad");
             }
 
-
-
+            if(AppNegocio.UsuarioNegocio.ValidarCorreoElectronico(CorreoElectronicoTxt.Text.Trim()))
+            {
+                MessageBox.Show("El correo electrónico ya está registrado");
+                return;
+            }
 
             Usuario usuarioRegistrar = new Usuario
             {

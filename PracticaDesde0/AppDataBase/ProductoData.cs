@@ -138,5 +138,22 @@ namespace AppDataBase
                 }
             }
         }
+        public static bool ValidarProducto(int sku, string nombre)
+        {
+            string ConnectionString = @"Server=(localdb)\MSSQLLocalDB;Database=BASEDEDATONEW;Trusted_Connection=True;";
+            var QueryValidarProducto = "SELECT COUNT (*) FROM PRODUCTO WHERE SKU = @SKU AND Nombre_Producto = @Nombre_Producto";
+            using (SqlConnection ConectarBD = new SqlConnection(ConnectionString))
+            {
+                ConectarBD.Open();
+                using(SqlCommand ComandoValidador = new SqlCommand(QueryValidarProducto, ConectarBD))
+                {
+                    ComandoValidador.Parameters.AddWithValue("@Sku", sku);
+                    ComandoValidador.Parameters.AddWithValue("@Nombre_Producto", nombre);
+                    int cantidad = Convert.ToInt32(ComandoValidador.ExecuteScalar());
+                    return cantidad > 0;
+                }
+
+            }
+        }
     }
 }
